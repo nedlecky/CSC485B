@@ -2,7 +2,7 @@
 ### SUNY Plattsburgh Spring 2023
 ### Dr. Ned Lecky
   * nleck001@plattsburgh.edu
-  * ned@lecky.com
+  * ned@lecky.com  www.lecky.com
   * www.linkedin.com/in/nedlecky/
 ### "We do things with ML algorithms that data scientists aren't interested in and don't (want to) understand!"
 ### And we put them into production!
