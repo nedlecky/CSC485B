@@ -4,7 +4,7 @@
   * nleck001@plattsburgh.edu
   * ned@lecky.com  www.lecky.com
   * www.linkedin.com/in/nedlecky/
-### "We do things with ML algorithms that data scientists don't neded or want to."
+### "We do things with ML algorithms that data scientists don't need or want to."
 ### (And we put them into production.)
 ### Included here:
   * Course Syllabus, although the schedule is very fluid as this is our first offering!
