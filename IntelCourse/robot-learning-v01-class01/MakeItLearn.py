@@ -46,7 +46,7 @@ net = Net(InputSize, NumClasses)
 ###### Define The Loss Function Here! ######
 criterion = nn.MSELoss() # [Ned Lecky]
 ###### Define The Optimizer Here! ######
-optimizer = torch.optim.SGD(net.parameters(), lr=0.01) # [Ned Lecky]
+optimizer = torch.optim.SGD(net.parameters(), lr=0.0001) # [Ned Lecky] Need LR < 0.001
 
 ##################################################################################################
 
