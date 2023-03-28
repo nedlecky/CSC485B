@@ -19,7 +19,7 @@ NumEpochs = 25 # Original was 25
 
 # [Ned Lecky] Might want to expand this
 HiddenSize = 10
-# 10: Their original... but when I retrain, goes in circles 
+# 10: Their original... but when I retrain, goes in circles if lr>=0.001
 # 20: Loss stays at nan
 # 50: Loss stays at nan
 
@@ -46,7 +46,7 @@ net = Net(InputSize, NumClasses)
 ###### Define The Loss Function Here! ######
 criterion = nn.MSELoss() # [Ned Lecky]
 ###### Define The Optimizer Here! ######
-optimizer = torch.optim.SGD(net.parameters(), lr=0.0001) # [Ned Lecky] Need LR < 0.001
+optimizer = torch.optim.SGD(net.parameters(), lr=0.001) # [Ned Lecky] LR 0.00001 is best!
 
 ##################################################################################################
 
